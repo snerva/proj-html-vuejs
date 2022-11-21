@@ -1,1 +1,18 @@
 @use 'variables' as *;
+
+header {
+    font-size: 12px;
+
+    .header_top {
+        margin: 0 105px;
+    }
+
+    hr {
+        color: $icons;
+        margin: 0;
+    }
+
+    .header_bottom {
+        margin: 0 105px;
+    }
+}

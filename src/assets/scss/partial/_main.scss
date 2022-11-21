@@ -1,0 +1,71 @@
+@use 'variables' as *;
+
+main {
+    .start {
+        height: 596px;
+    }
+
+    .courses {
+        .container {
+            width: 80%;
+            max-width: 1178px;
+            margin: 0 auto;
+
+            .cards {
+                .row {
+                    height: 230px;
+
+                    .col {
+                        background-color: lightgray;
+                    }
+                }
+            }
+
+            .courses_groups {
+                margin: 118px 0;
+            }
+        }
+
+    }
+
+    .read_more {
+        height: 596px;
+    }
+
+    .recents {
+        margin: 118px 0;
+    }
+
+    .data {
+        height: 596px;
+    }
+
+    .subscribe {
+        background-color: $secondary_vibrant_color;
+
+        .container {
+            width: 80%;
+            max-width: 1178px;
+        }
+    }
+
+    .popular {
+        background-color: $primary_light_color;
+        padding-top: 118px;
+    }
+
+    .categories {
+        .container {
+            margin: 3rem auto;
+
+            .cat_card {
+                border: 1px solid $light_border;
+            }
+        }
+    }
+
+    .opinions {
+        height: 670px;
+        background-color: lightseagreen;
+    }
+}
