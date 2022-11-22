@@ -71,7 +71,9 @@ export default {
             </div>
         </div>
         <!--/.header_top-->
+
         <hr class="m-0">
+
         <div class="header_bottom d-flex justify-content-between align-items-center py-4">
             <div class="logo">
                 <img src="../../public/images/MasterStudy_logo.svg" alt="">
@@ -122,7 +124,9 @@ export default {
                     </a>
                 </div>
             </div>
+            <!--/.account-->
         </div>
+        <!--/.header_bottom-->
     </header>
 </template>
 

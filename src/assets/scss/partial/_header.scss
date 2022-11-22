@@ -34,62 +34,62 @@ header {
             }
         }
     }
-}
 
-hr {
-    color: $icons;
-}
-
-.header_bottom {
-    margin: 0 105px;
-    font-size: 13px;
-
-    .search_courses {
-        .category_list {
-            color: $icons;
-        }
-
-        .form-control {
-            width: 351px;
-            font-size: 13px;
-            border-radius: 0;
-            border: none;
-            background-color: $searchbar_bckg;
-            color: $icons;
-        }
-
-        .btn {
-            background-color: $buttons_color;
-            border-radius: 0;
-            color: $light;
-        }
+    hr {
+        color: $icons;
     }
 
-    .typologies {
-        a {
-            color: $buttons_color;
-        }
-    }
+    .header_bottom {
+        margin: 0 105px;
+        font-size: 13px;
 
-    .account {
-        a {
-            text-decoration: none;
-        }
+        .search_courses {
+            .category_list {
+                color: $icons;
+            }
 
-        .sign_up {
-            padding: 0 2rem;
+            .form-control {
+                width: 351px;
+                font-size: 13px;
+                border-radius: 0;
+                border: none;
+                background-color: $searchbar_bckg;
+                color: $icons;
+            }
 
             .btn {
                 background-color: $buttons_color;
+                border-radius: 0;
                 color: $light;
-                font-size: 13px;
-                padding: 16px 30px;
+            }
+        }
 
-                &:hover {
-                    background-color: $buttons_hover;
+        .typologies {
+            a {
+                color: $buttons_color;
+            }
+        }
+
+        .account {
+            a {
+                text-decoration: none;
+            }
+
+            .sign_up {
+                padding: 0 2rem;
+
+                .btn {
+                    background-color: $buttons_color;
+                    color: $light;
+                    font-size: 13px;
+                    padding: 16px 30px;
+
+                    &:hover {
+                        background-color: $buttons_hover;
+                    }
                 }
             }
         }
-    }
 
+    }
 }
