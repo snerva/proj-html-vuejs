@@ -1,6 +1,16 @@
 @use 'variables' as *;
 
 main {
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h6 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
     .start {
         padding: 3.75rem;
 
@@ -68,8 +78,6 @@ main {
                 }
 
                 h6 {
-                    font-size: 1rem;
-                    font-weight: bold;
                     margin: 1.5rem 0;
                 }
 
@@ -80,12 +88,6 @@ main {
 
             .courses_groups {
                 margin: 118px 0;
-
-                h6 {
-                    font-size: 1rem;
-                    font-weight: bold;
-
-                }
 
                 a {
                     font-size: 13px;
@@ -112,11 +114,6 @@ main {
             .contents {
                 max-width: 570px;
 
-
-                h2 {
-                    font-size: 48px;
-                }
-
                 p {
                     margin: 2rem 0;
                     font-size: 24px;
@@ -135,6 +132,66 @@ main {
 
     .recents {
         margin: 118px 0;
+
+        .categories_link {
+            a {
+                text-decoration: none;
+                margin: 1rem;
+            }
+
+            .light_grey {
+                background-color: $recent_buttons;
+                padding: 16px 20px;
+                color: $dark;
+            }
+        }
+
+        .single_card {
+            font-size: 15px;
+
+            img {
+                max-width: 100%;
+            }
+
+            .label {
+                color: $light;
+                font-size: 12px;
+            }
+
+            .yellow_label {
+                background-color: $label_yellow;
+                rotate: -45deg;
+                top: 25px;
+                left: -27px;
+                padding: 0.25rem 2rem;
+            }
+
+            .yellow_border {
+                border: 1px solid $border;
+                border-top: 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: $icons;
+                font-size: 12px;
+            }
+
+            p {
+                margin-top: 0.5rem;
+                font-weight: bold;
+            }
+
+            .icon_clock {
+                color: $icons;
+                margin-right: 0.5rem;
+            }
+
+
+        }
+
+
+
     }
 
     .data {

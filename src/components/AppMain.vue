@@ -138,8 +138,8 @@ export default {
         <!--/.read_more-->
         <section class="recents text-center">
             <h2>Recent courses</h2>
-            <div class="categories_link">
-                <a href="">All Categories</a>
+            <div class="categories_link mt-5">
+                <a class="light_grey rounded-pill" href="">All Categories</a>
                 <a href="">Art</a>
                 <a href="">Exercise</a>
                 <a href="">Material design</a>
@@ -150,158 +150,179 @@ export default {
             <div class="categories_cards p-5">
                 <div class="row row-cols-6 gx-3 gy-4">
                     <div class="col p-2">
-                        <div class="single_card  bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                        <div class="single_card">
+                            <img src="../../public/images/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="">
+                            <div class="card_body p-3 text-start border border-top-0">
+                                <a href="">Apache ></a>
+                                <p>Web Coding and Apache Basics</p>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>
+                                        <font-awesome-icon icon="fa-regular fa-clock" class="icon_clock" /><small>6
+                                            hours</small>
+                                    </span>
+                                    <span><strong>Free</strong></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="single_card">
+                            <div class="image_card position-relative">
+                                <span class="label yellow_label featured position-absolute">FEATURED</span>
+                                <img src="../../public/images/cat_2-272x161.jpg" alt="">
                             </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>stars</span>
-                                <span>cost</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>stars</span>
-                                <span>cost</span>
+                            <div class="card_body yellow_border p-3 text-start">
+                                <a href="">Art ></a>
+                                <p>Real Things Art Painting by Jason Ni</p>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>
+                                        <font-awesome-icon icon="fa-regular fa-clock" class="icon_clock" /><small>6
+                                            hours</small>
+                                    </span>
+                                    <span><strong>$45</strong></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
+                        <div class="single_card">
+                            <img src="../../public/images/course-preview-272x161.jpg" alt="">
                             <div class="card_body p-3 text-start">
                                 <a href="">lorem</a>
                                 <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>stars</span>
+                                    <span>cost</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
+                        <div class="single_card">
+                            <img src="../../public/images/photo-1496307042754-b4aa456c4a2d-272x161.jpeg" alt="">
                             <div class="card_body p-3 text-start">
                                 <a href="">lorem</a>
                                 <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>stars</span>
+                                    <span>cost</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
+                        <div class="single_card">
+                            <img src="../../public/images/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="">
                             <div class="card_body p-3 text-start">
                                 <a href="">lorem</a>
                                 <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>time</span>
+                                    <span>cost</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
+                        <div class="single_card">
+                            <img src="../../public/images/cathryn-lavery-67852-unsplash-272x161.jpg" alt="">
+                            <div class="card_body p-3 text-start border border-top-0">
                                 <a href="">lorem</a>
                                 <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>time</span>
+                                    <span>cost</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
+                        <div class="single_card">
+                            <img src="../../public/images/photo-1475452779376-caebfb988090-272x161.jpeg" alt="">
                             <div class="card_body p-3 text-start">
                                 <a href="">lorem</a>
                                 <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>time</span>
+                                    <span>cost</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
+                        <div class="single_card">
+                            <img src="../../public/images/cristian-grecu-762012-unsplash-min-scaled-272x161.jpg" alt="">
+                            <div class="card_body p-3 text-start border border-top-0">
                                 <a href="">lorem</a>
                                 <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>stars</span>
-                                <span>cost</span>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>time</span>
+                                    <span>cost</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
+                        <div class="single_card">
+                            <img src="../../public/images/landscape-272x161.jpg" alt="">
+                            <div class="card_body p-3 text-start border border-top-0">
                                 <a href="">lorem</a>
                                 <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>time</span>
+                                    <span>cost</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card bg-secondary">
-                            <img src="" alt="">
+                        <div class="single_card">
+                            <img src="../../public/images/12345-1-272x161.png" alt="">
                             <div class="card_body p-3 text-start">
                                 <a href="">lorem</a>
                                 <p>Lorem ipsum dolor sit amet.</p>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>stars</span>
+                                    <span>cost</span>
+                                </div>
                             </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                        </div>
+                    </div>
+                    <div class="col p-2">
+                        <div class="single_card">
+                            <img src="../../public/images/jakob-owens-198234-unsplash-min-1-272x161.png" alt="">
+                            <div class="card_body p-3 text-start">
+                                <a href="">lorem</a>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>time</span>
+                                    <span>cost</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-2">
+                        <div class="single_card">
+                            <img src="../../public/images/promo_tf-272x161.jpg" alt="">
+                            <div class="card_body p-3 text-start border border-top-0">
+                                <a href="">lorem</a>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>time</span>
+                                    <span>cost</span>
+                                </div>
                             </div>
                         </div>
                     </div>
