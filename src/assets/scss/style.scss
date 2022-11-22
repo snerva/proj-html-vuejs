@@ -1,6 +1,7 @@
 @use './partial/header';
 @use './partial/main';
 @use './partial/footer';
+@use './partial/variables' as *;
 
 @use '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
@@ -13,13 +14,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: $dark;
 }
 
 header {
-    .header_top {
-        height: 53px;
-        background-color: lightblue;
-    }
+
 
 
 
