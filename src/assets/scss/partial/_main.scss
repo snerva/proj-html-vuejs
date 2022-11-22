@@ -58,25 +58,79 @@ main {
             max-width: 1178px;
             margin: 0 auto;
 
-            .cards {
-                .row {
-                    height: 230px;
+            .single_card {
+                padding: 2rem;
+                background-color: $primary_light_color;
 
-                    .col {
-                        background-color: lightgray;
-                    }
+                .icon {
+                    font-size: 50px;
+                    color: $buttons_color;
+                }
+
+                h6 {
+                    font-size: 1rem;
+                    font-weight: bold;
+                    margin: 1.5rem 0;
+                }
+
+                p {
+                    font-size: 13px;
                 }
             }
 
             .courses_groups {
                 margin: 118px 0;
+
+                h6 {
+                    font-size: 1rem;
+                    font-weight: bold;
+
+                }
+
+                a {
+                    font-size: 13px;
+                    text-decoration: none;
+                    color: $dark;
+                }
+
             }
         }
 
     }
 
     .read_more {
-        height: 596px;
+        height: 598px;
+        background-image: url(../../../../public/images/Untitled-1-1-1-1-1.png);
+        background-repeat: round;
+        background-size: cover;
+
+        .container {
+            width: 80%;
+            max-width: 1178px;
+            margin: 0 auto;
+
+            .contents {
+                max-width: 570px;
+
+
+                h2 {
+                    font-size: 48px;
+                }
+
+                p {
+                    margin: 2rem 0;
+                    font-size: 24px;
+                }
+
+                .btn {
+                    background-color: $buttons_color;
+                    color: $light;
+                    font-size: 13px;
+                    padding: 16px 24px;
+
+                }
+            }
+        }
     }
 
     .recents {
