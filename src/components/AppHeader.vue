@@ -13,8 +13,8 @@ export default {
                     <option value="english">English</option>
                 </select>
             </div>
-            <div class="navbar_menu">
-                <div class="nav_links d-flex align-items-center">
+            <div class="navbar_menu d-flex">
+                <div class="nav_links d-flex align-items-center px-3">
                     <div class="courses">
                         <a href="">Courses</a>
                     </div>
@@ -40,8 +40,33 @@ export default {
                     </div>
                 </div>
                 <!--/.navbar-links-->
-                <div class="socials">
+                <div class="socials d-flex align-items-center">
+                    <a href="">
+                        <font-awesome-icon icon="fa-brands fa-twitter" size="lg" />
+                    </a>
+                    <a href="">
+                        <font-awesome-icon icon="fa-brands fa-instagram" size="lg" />
+                    </a>
+                    <a href="">
+                        <font-awesome-icon icon="fa-brands fa-behance" size="lg" />
+                    </a>
+                    <a href="">
+                        <font-awesome-icon icon="fa-brands fa-dribbble" size="lg" />
+                    </a>
+                    <a href="">
+                        <font-awesome-icon icon="fa-brands fa-flickr" size="lg" />
+                    </a>
+                    <a href="">
+                        <font-awesome-icon icon="fa-brands fa-git" size="lg" />
+                    </a>
+                    <a href="">
+                        <font-awesome-icon icon="fa-brands fa-linkedin" size="lg" />
+                    </a>
+                    <a href="">
+                        <font-awesome-icon icon="fa-brands fa-pinterest" size="lg" />
+                    </a>
                 </div>
+                <!--/.socials-->
             </div>
         </div>
         <hr class="m-0">
