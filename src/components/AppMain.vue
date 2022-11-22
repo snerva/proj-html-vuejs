@@ -405,7 +405,6 @@ export default {
                     <a href="" class="categories_btn rounded-pill">SHOW ALL</a>
                 </div>
             </div>
-
         </section>
         <!--/.recents-->
         <section class="banner data bg-secondary"></section>
