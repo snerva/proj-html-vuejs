@@ -165,10 +165,31 @@ main {
 
             .yellow_label {
                 background-color: $label_yellow;
-                rotate: -45deg;
-                top: 25px;
-                left: -27px;
-                padding: 0.25rem 2rem;
+                rotate: -48deg;
+                top: 26px;
+                left: -5px;
+                padding: 5px 11px 4px 7px;
+            }
+
+            .lateral_triangle {
+                width: 45px;
+                height: 24px;
+                background-color: $label_yellow;
+                clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+            }
+
+            .left_triangle {
+                width: 42px;
+                height: 20px;
+                rotate: 90deg;
+                top: 69px;
+                left: -11px;
+            }
+
+            .right_triangle {
+                rotate: -47deg;
+                top: -4px;
+                left: 45px;
             }
 
             .new {
@@ -319,10 +340,31 @@ main {
 
                 .yellow_label {
                     background-color: $label_yellow;
-                    rotate: -45deg;
-                    top: 25px;
-                    left: -27px;
-                    padding: 0.25rem 2rem;
+                    rotate: -48deg;
+                    top: 26px;
+                    left: -5px;
+                    padding: 5px 11px 4px 7px;
+                }
+
+                .lateral_triangle {
+                    width: 45px;
+                    height: 24px;
+                    background-color: $label_yellow;
+                    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+                }
+
+                .left_triangle {
+                    width: 42px;
+                    height: 20px;
+                    rotate: 90deg;
+                    top: 69px;
+                    left: -11px;
+                }
+
+                .right_triangle {
+                    rotate: -47deg;
+                    top: -4px;
+                    left: 45px;
                 }
 
                 .new {
@@ -428,6 +470,10 @@ main {
                 background-color: $buttons_color;
                 padding: 16px 24px;
                 color: $light;
+            }
+
+            .start_teaching:hover {
+                background-color: $secondary_vibrant_color;
             }
         }
     }

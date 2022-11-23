@@ -171,6 +171,8 @@ export default {
                     <div class="col p-2">
                         <div class="single_card">
                             <div class="image_card position-relative">
+                                <span class="lateral_triangle left_triangle position-absolute"></span>
+                                <span class="lateral_triangle right_triangle position-absolute"></span>
                                 <span class="label yellow_label featured position-absolute">FEATURED</span>
                                 <span class="label new position-absolute">NEW</span>
                                 <img src="../../public/images/cat_2-272x161.jpg" alt="">
@@ -489,6 +491,8 @@ export default {
                     <div class="col p-2">
                         <div class="single_card">
                             <div class="image_card position-relative">
+                                <span class="lateral_triangle left_triangle position-absolute"></span>
+                                <span class="lateral_triangle right_triangle position-absolute"></span>
                                 <span class="label yellow_label featured position-absolute">FEATURED</span>
                                 <span class="label new position-absolute">NEW</span>
                                 <img src="../../public/images/cat_2-272x161.jpg" alt="">
@@ -619,7 +623,7 @@ export default {
                                 <h4>Become an Instructor</h4>
                                 <p>Teach what you love. MasterStudy gives you the tools to create a course.</p>
                             </div>
-                            <a href="" class="rounded-pill">START TEACHING</a>
+                            <a href="" class="start_teaching rounded-pill">START TEACHING</a>
                         </div>
                     </div>
                 </div>
