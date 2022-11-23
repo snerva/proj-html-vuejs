@@ -278,5 +278,137 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partial/variables' as *;
 
+.recents {
+    margin: 118px 92px;
+
+    .categories_link {
+        a {
+            text-decoration: none;
+            margin: 1rem;
+        }
+
+        .light_grey {
+            background-color: $recent_buttons;
+            padding: 16px 20px;
+            color: $dark;
+        }
+    }
+
+    .single_card {
+        font-size: 14px;
+
+        img {
+            max-width: 100%;
+        }
+
+        .label {
+            color: $light;
+            font-size: 12px;
+        }
+
+        .yellow_label {
+            background-color: $label_yellow;
+            rotate: -48deg;
+            top: 26px;
+            left: -5px;
+            padding: 5px 11px 4px 7px;
+        }
+
+        .lateral_triangle {
+            width: 45px;
+            height: 24px;
+            background-color: $label_yellow;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .left_triangle {
+            width: 42px;
+            height: 20px;
+            rotate: 90deg;
+            top: 69px;
+            left: -11px;
+        }
+
+        .right_triangle {
+            rotate: -47deg;
+            top: -4px;
+            left: 45px;
+        }
+
+        .new {
+            background-color: $secondary_vibrant_color;
+            padding: 0.25rem 0.5rem;
+            top: 8px;
+            right: 8px;
+        }
+
+        .hot {
+            background-color: $label;
+            padding: 0.25rem 0.5rem;
+            top: 8px;
+            right: 8px;
+        }
+
+        .special {
+            background-color: $label_yellow;
+            padding: 0.125rem 0.5rem;
+            top: 8px;
+            right: 8px;
+        }
+
+        .yellow_border {
+            border: 1px solid $border;
+            border-top: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: $icons;
+            font-size: 12px;
+        }
+
+        p {
+            margin-top: 0.5rem;
+            font-weight: bold;
+        }
+
+        .icon_clock {
+            color: $icons;
+            margin-right: 0.5rem;
+        }
+
+        .sale {
+            font-size: 12px;
+            color: $icons;
+            right: 0;
+            bottom: 16px;
+            text-decoration: line-through;
+        }
+
+
+    }
+
+    .show {
+        margin-top: 6rem;
+
+        .categories_btn {
+            font-size: 13px;
+            text-decoration: none;
+            background-color: $buttons_color;
+            padding: 16px 24px;
+            color: $light;
+        }
+
+
+    }
+
+    .menu_vertical {
+        padding: 1rem;
+        background-color: $light;
+        box-shadow: 3px;
+    }
+
+}
 </style>

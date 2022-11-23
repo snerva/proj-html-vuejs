@@ -106,5 +106,48 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partial/variables' as *;
 
+.courses {
+    .container {
+        width: 80%;
+        max-width: 1178px;
+        margin: 0 auto;
+
+        .single_card {
+            padding: 2rem;
+            background-color: $cards_light;
+
+            &:hover {
+                margin-top: -1rem;
+                cursor: pointer;
+            }
+
+            .icon {
+                font-size: 50px;
+                color: $buttons_color;
+            }
+
+            h6 {
+                margin: 1.5rem 0;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+
+        .courses_groups {
+            margin: 118px 0;
+
+            a {
+                font-size: 13px;
+                text-decoration: none;
+                color: $dark;
+            }
+
+        }
+    }
+
+}
 </style>

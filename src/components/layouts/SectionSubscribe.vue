@@ -27,5 +27,36 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partial/variables' as *;
 
+.subscribe {
+    background-color: $secondary_vibrant_color;
+    color: $light;
+
+    .container {
+        width: 80%;
+        max-width: 1178px;
+        font-size: 15px;
+
+        h4 {
+            font-size: 18px;
+        }
+
+        .form-control {
+            width: 282px;
+            font-size: 13px;
+            border-radius: 0;
+            border: none;
+            background-color: $searchbar_bckg;
+            color: $icons;
+        }
+
+        .btn {
+            background-color: $buttons_color;
+            border-radius: 0;
+            color: $light;
+        }
+    }
+
+}
 </style>

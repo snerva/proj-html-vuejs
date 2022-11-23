@@ -25,5 +25,56 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partial/variables' as *;
 
+.start {
+    padding: 3.75rem;
+
+    .container {
+        width: 80%;
+        max-width: 1178px;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 64px;
+        }
+
+        p {
+            margin: 2rem 0;
+            font-size: 24px;
+        }
+
+        .btn {
+            background-color: $buttons_color;
+            color: $light;
+            font-size: 13px;
+            padding: 16px 24px;
+
+        }
+
+        .start_images {
+            margin-right: -9.5rem;
+
+            .bubblespeech {
+                right: 45px;
+                top: 59px;
+            }
+
+            .book1 {
+                top: 111px;
+                right: 45px;
+            }
+
+            .book2 {
+                bottom: 39px;
+                right: 150px;
+            }
+
+            .magnifier {
+                right: 65px;
+                bottom: 117px;
+            }
+        }
+    }
+}
 </style>

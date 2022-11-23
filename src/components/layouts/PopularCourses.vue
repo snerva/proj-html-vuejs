@@ -154,5 +154,129 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partial/variables' as *;
 
+.popular {
+    background-color: $primary_light_color;
+    padding: 118px 92px 64px;
+
+    .single_card {
+        font-size: 14px;
+
+
+        .image_card {
+            img {
+                max-width: 100%;
+            }
+
+            .label {
+                color: $light;
+                font-size: 12px;
+            }
+
+            .yellow_label {
+                background-color: $label_yellow;
+                rotate: -48deg;
+                top: 26px;
+                left: -5px;
+                padding: 5px 11px 4px 7px;
+            }
+
+            .lateral_triangle {
+                width: 45px;
+                height: 24px;
+                background-color: $label_yellow;
+                clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+            }
+
+            .left_triangle {
+                width: 42px;
+                height: 20px;
+                rotate: 90deg;
+                top: 69px;
+                left: -11px;
+            }
+
+            .right_triangle {
+                rotate: -47deg;
+                top: -4px;
+                left: 45px;
+            }
+
+            .new {
+                background-color: $secondary_vibrant_color;
+                padding: 0.25rem 0.5rem;
+                top: 8px;
+                right: 8px;
+            }
+
+            .hot {
+                background-color: $label;
+                padding: 0.25rem 0.5rem;
+                top: 8px;
+                right: 8px;
+            }
+
+            .special {
+                background-color: $label_yellow;
+                padding: 0.125rem 0.5rem;
+                top: 8px;
+                right: 8px;
+            }
+        }
+
+        .yellow_border {
+            border: 1px solid $border;
+            border-top: 0;
+        }
+
+        .card_body {
+            background-color: $light;
+
+
+
+            a {
+                text-decoration: none;
+                color: $icons;
+                font-size: 12px;
+            }
+
+            p {
+                margin-top: 0.5rem;
+                font-weight: bold;
+            }
+
+            .icon_clock {
+                color: $icons;
+                margin-right: 0.5rem;
+            }
+
+            .sale {
+                font-size: 12px;
+                color: $icons;
+                right: 0;
+                bottom: 16px;
+                text-decoration: line-through;
+            }
+        }
+
+    }
+
+    .cards_buttons {
+        button {
+            background-color: $light;
+            border: 1px solid $light_border;
+        }
+
+        .chevron {
+            vertical-align: middle;
+            color: $light_border;
+            padding: 0.5rem 0.75rem;
+
+            &:hover {
+                background-color: $chevron_hover;
+            }
+        }
+    }
+}
 </style>

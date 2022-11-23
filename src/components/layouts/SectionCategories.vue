@@ -37,5 +37,39 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partial/variables' as *;
 
+.categories {
+    padding: 110px 92px;
+
+    .cat_card {
+        border: 1px solid $light_border;
+        padding: 2rem 0;
+
+        img {
+            padding: 32px;
+        }
+
+        .text {
+            padding-right: 4rem;
+
+            h4 {
+                font-size: 34px;
+                margin-bottom: 20px;
+            }
+        }
+
+        a {
+            font-size: 13px;
+            text-decoration: none;
+            background-color: $buttons_color;
+            padding: 16px 24px;
+            color: $light;
+        }
+
+        .start_teaching:hover {
+            background-color: $secondary_vibrant_color;
+        }
+    }
+}
 </style>

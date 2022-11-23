@@ -21,5 +21,34 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partial/variables' as *;
 
+.testimonials {
+    height: 588px;
+    padding: 70px 220px;
+    background-image: url(../../../../public/images/brooke-cagle-224821-unsplash-1-1920x700.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: lightseagreen;
+
+    .opinion {
+        width: 737px;
+        background-color: $light;
+        padding: 90px;
+
+        h4 {
+            font-size: 34px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .lateral_triangle {
+        width: 24px;
+        height: 24px;
+        rotate: 90deg;
+        background-color: $light;
+        clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    }
+}
 </style>

@@ -42,5 +42,27 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partial/variables' as *;
 
+.data {
+    background-color: $recent_buttons;
+    background-image: url(../../../../../public/images/we_proud.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    height: 754px;
+
+    .container {
+        width: 80%;
+        max-width: 1178px;
+
+        .title {
+            padding: 6rem 12rem;
+        }
+
+        .data_numbers {
+            font-size: 64px;
+        }
+    }
+}
 </style>
