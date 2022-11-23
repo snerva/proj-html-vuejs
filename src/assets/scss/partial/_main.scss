@@ -136,7 +136,7 @@ main {
     }
 
     .recents {
-        margin: 118px 0;
+        margin: 118px 92px;
 
         .categories_link {
             a {
@@ -301,9 +301,7 @@ main {
 
     .popular {
         background-color: $primary_light_color;
-        padding-top: 118px;
-        padding-bottom: 64px;
-
+        padding: 118px 92px 64px;
 
         .single_card {
             font-size: 14px;
@@ -405,11 +403,31 @@ main {
     }
 
     .categories {
-        .container {
-            margin: 3rem auto;
+        padding: 110px 92px;
 
-            .cat_card {
-                border: 1px solid $light_border;
+        .cat_card {
+            border: 1px solid $light_border;
+            padding: 2rem 0;
+
+            img {
+                padding: 32px;
+            }
+
+            .text {
+                padding-right: 4rem;
+
+                h4 {
+                    font-size: 34px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            a {
+                font-size: 13px;
+                text-decoration: none;
+                background-color: $buttons_color;
+                padding: 16px 24px;
+                color: $light;
             }
         }
     }

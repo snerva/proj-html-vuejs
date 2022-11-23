@@ -465,7 +465,7 @@ export default {
         <section class="popular text-center">
             <h2>Popular courses</h2>
             <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            <div class="popular_cards p-5">
+            <div class="popular_cards py-5">
                 <div class="row row-cols-6 gx-3 gy-4">
                     <div class="col p-2">
                         <div class="single_card">
@@ -610,26 +610,29 @@ export default {
         </section>
         <!--/.popular-->
         <section class="categories">
-            <div class="container">
-                <div class="row row-cols-2 g-3">
-                    <div class="col p-2">
-                        <div class="cat_card">
-                            <img class="p-3" src="" alt="">
-                            <div class="contents">
-                                <h4>Lorem, ipsum dolor.</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, repellat beatae.</p>
-                                <button>start teaching</button>
+            <div class="row row-cols-2 gx-3 gy-4">
+                <div class="col p-2">
+                    <div class="cat_card d-flex align-items-center">
+                        <img class=" img-fluid" src="../../public/images/image_box_1-221x231.png" alt="">
+                        <div class="contents">
+                            <div class="text py-4">
+                                <h4>Become an Instructor</h4>
+                                <p>Teach what you love. MasterStudy gives you the tools to create a course.</p>
                             </div>
+                            <a href="" class="rounded-pill">START TEACHING</a>
                         </div>
                     </div>
-                    <div class="col p-2">
-                        <div class="cat_card">
-                            <img class="p-3" src="" alt="">
-                            <div class="contents">
-                                <h4>Lorem, ipsum dolor.</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, repellat beatae.</p>
-                                <button>start teaching</button>
+                </div>
+
+                <div class="col p-2">
+                    <div class="cat_card d-flex align-items-center">
+                        <img class=" img-fluid" src="../../public/images/image_box_2-234x231.png" alt="">
+                        <div class="contents">
+                            <div class="text py-4">
+                                <h4>Setup For Business</h4>
+                                <p>Get unlimited access to 2,500 of Udemy's top courses for your team.</p>
                             </div>
+                            <a href="" class="rounded-pill">DOING BUSINESS</a>
                         </div>
                     </div>
                 </div>
