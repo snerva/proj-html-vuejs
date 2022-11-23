@@ -464,92 +464,148 @@ export default {
         <!--/.subscribe-->
         <section class="popular text-center">
             <h2>Popular courses</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
             <div class="popular_cards p-5">
                 <div class="row row-cols-6 gx-3 gy-4">
                     <div class="col p-2">
-                        <div class="single_card  bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="single_card">
+                            <div class="image_card">
+                                <img src="../../public/images/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="">
                             </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="single_card  bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                            <div class="card_body p-3 text-start border border-top-0">
+                                <a href="">Apache ></a>
+                                <p>Web Coding and Apache Basics</p>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>
+                                        <font-awesome-icon icon="fa-regular fa-clock" class="icon_clock" /><small>6
+                                            hours</small>
+                                    </span>
+                                    <span><strong>Free</strong></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card  bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="single_card">
+                            <div class="image_card position-relative">
+                                <span class="label yellow_label featured position-absolute">FEATURED</span>
+                                <span class="label new position-absolute">NEW</span>
+                                <img src="../../public/images/cat_2-272x161.jpg" alt="">
                             </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>stars</span>
-                                <span>cost</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col p-2">
-                        <div class="single_card  bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>stars</span>
-                                <span>cost</span>
+                            <div class="card_body yellow_border p-3 text-start">
+                                <a href="">Art ></a>
+                                <p>Real Things Art Painting by Jason Ni</p>
+                                <hr>
+                                <div
+                                    class="card_info d-flex justify-content-between align-items-center position-relative">
+                                    <span>
+                                        <font-awesome-icon icon="fa-regular fa-clock" class="icon_clock" /><small>6
+                                            hours</small>
+                                    </span>
+                                    <span><strong>$45</strong></span>
+                                    <span class="sale position-absolute">$50</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card  bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="single_card">
+                            <div class="image_card position-relative">
+                                <span class="label hot position-absolute">HOT</span>
+                                <img src="../../public/images/course-preview-272x161.jpg" alt="">
                             </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                            <div class="card_body p-3 text-start border boredr-top-0">
+                                <a href="">Software Development ></a>
+                                <p>Basics of Masterstudy</p>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <div class="stars d-flex align-items-center">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <span class="px-1">5</span>
+                                    </div>
+                                    <span><strong>Free</strong></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col p-2">
-                        <div class="single_card  bg-secondary">
-                            <img src="" alt="">
-                            <div class="card_body p-3 text-start">
-                                <a href="">lorem</a>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="single_card">
+                            <div class="image_card position-relative">
+                                <span class="label hot position-absolute">HOT</span>
+                                <img src="../../public/images/photo-1496307042754-b4aa456c4a2d-272x161.jpeg" alt="">
                             </div>
-                            <div class="card_info d-flex justify-content-between align-items-center p-3">
-                                <span>time</span>
-                                <span>cost</span>
+                            <div class="card_body p-3 text-start border border-top-0">
+                                <a href="">Electronic ></a>
+                                <p>How to be a DJ? Make Electronic Music</p>
+                                <hr>
+                                <div
+                                    class="card_info d-flex justify-content-between align-items-center position-relative">
+                                    <div class="stars d-flex align-items-center">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <img src="../../public/images/starfull.svg" alt="">
+                                        <span class="px-1">5</span>
+                                    </div>
+                                    <span><strong>$49</strong></span>
+                                    <span class="sale position-absolute">$59</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-2">
+                        <div class="single_card">
+                            <div class="image_card">
+                                <img src="../../public/images/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="card_body p-3 text-start border border-top-0">
+                                <a href="">Communication ></a>
+                                <p>Design Instruments for Communication</p>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>
+                                        <font-awesome-icon icon="fa-regular fa-clock" class="icon_clock" /><small>6
+                                            hours</small>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-2">
+                        <div class="single_card">
+                            <div class="image_card">
+                                <img src="../../public/images/cathryn-lavery-67852-unsplash-272x161.jpg" alt="">
+                            </div>
+                            <div class="card_body p-3 text-start border border-top-0">
+                                <a href="">Art ></a>
+                                <p>Make your Concept Right and Beautiful</p>
+                                <hr>
+                                <div class="card_info d-flex justify-content-between align-items-center">
+                                    <span>
+                                        <font-awesome-icon icon="fa-regular fa-clock" class="icon_clock" /><small>6
+                                            hours</small>
+                                    </span>
+                                    <span><strong>$70</strong></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="cards_buttons mt-4">
-                    <button class="btn_prev">P</button>
-                    <button class="btn_next">N</button>
-                </div>
+            </div>
+            <div class="cards_buttons">
+                <button class="btn_prev ">
+                    <font-awesome-icon icon="fa-solid fa-chevron-left" class="chevron" />
+                </button>
+                <button class="btn_next">
+                    <font-awesome-icon icon="fa-solid fa-chevron-right" class="chevron" />
+                </button>
             </div>
         </section>
         <!--/.popular-->

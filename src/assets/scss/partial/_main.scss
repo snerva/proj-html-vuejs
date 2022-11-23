@@ -302,6 +302,106 @@ main {
     .popular {
         background-color: $primary_light_color;
         padding-top: 118px;
+        padding-bottom: 64px;
+
+
+        .single_card {
+            font-size: 14px;
+
+
+            .image_card {
+                img {
+                    max-width: 100%;
+                }
+
+                .label {
+                    color: $light;
+                    font-size: 12px;
+                }
+
+                .yellow_label {
+                    background-color: $label_yellow;
+                    rotate: -45deg;
+                    top: 25px;
+                    left: -27px;
+                    padding: 0.25rem 2rem;
+                }
+
+                .new {
+                    background-color: $secondary_vibrant_color;
+                    padding: 0.25rem 0.5rem;
+                    top: 8px;
+                    right: 8px;
+                }
+
+                .hot {
+                    background-color: $label;
+                    padding: 0.25rem 0.5rem;
+                    top: 8px;
+                    right: 8px;
+                }
+
+                .special {
+                    background-color: $label_yellow;
+                    padding: 0.125rem 0.5rem;
+                    top: 8px;
+                    right: 8px;
+                }
+            }
+
+            .yellow_border {
+                border: 1px solid $border;
+                border-top: 0;
+            }
+
+            .card_body {
+                background-color: $light;
+
+
+
+                a {
+                    text-decoration: none;
+                    color: $icons;
+                    font-size: 12px;
+                }
+
+                p {
+                    margin-top: 0.5rem;
+                    font-weight: bold;
+                }
+
+                .icon_clock {
+                    color: $icons;
+                    margin-right: 0.5rem;
+                }
+
+                .sale {
+                    font-size: 12px;
+                    color: $icons;
+                    right: 0;
+                    bottom: 16px;
+                    text-decoration: line-through;
+                }
+            }
+
+        }
+
+        .cards_buttons {
+            button {
+                background-color: $light;
+                border: 1px solid $light_border;
+            }
+
+            .chevron {
+                vertical-align: middle;
+                color: $light_border;
+                padding: 0.5rem 0.75rem;
+
+                &:hover {
+                    background-color: $chevron_hover;
+                }
+            }
+        }
     }
 
     .categories {
