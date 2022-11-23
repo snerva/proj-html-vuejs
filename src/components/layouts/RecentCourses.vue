@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <section class="recents text-center">
+    <section class="recents text-center position-relative">
         <h2>Recent courses</h2>
         <div class="categories_link mt-5">
             <a class="light_grey rounded-pill" href="">All Categories</a>
@@ -16,7 +16,7 @@ export default {
             <a href="">Photography</a>
             <a href="">Software Development</a>
         </div>
-        <div class="categories_cards px-5 pt-5">
+        <div class="categories_cards pt-5">
             <div class="row row-cols-6 gx-3 gy-4">
                 <div class="col p-2">
                     <div class="single_card">
@@ -274,6 +274,25 @@ export default {
                 <a href="" class="categories_btn rounded-pill">SHOW ALL</a>
             </div>
         </div>
+        <div class="menu_vertical position-absolute shadow p-3 bg-body">
+            <ul>
+                <li>
+                    <font-awesome-icon icon="fa-solid fa-desktop" size="xl" />
+                </li>
+                <li>
+                    <font-awesome-icon icon="fa-regular fa-life-ring" size="xl" />
+                </li>
+                <li>
+                    <font-awesome-icon icon="fa-solid fa-wrench" size="xl" />
+                </li>
+                <li>
+                    <font-awesome-icon icon="fa-solid fa-cart-shopping" size="xl" />
+                </li>
+                <li>
+                    <font-awesome-icon icon="fa-solid fa-mobile-screen-button" size="xl" />
+                </li>
+            </ul>
+        </div>
     </section>
 </template>
 
@@ -408,6 +427,24 @@ export default {
         padding: 1rem;
         background-color: $light;
         box-shadow: 3px;
+        bottom: -110px;
+        right: -90px;
+
+        ul {
+            list-style: none;
+            margin-bottom: 0;
+            padding-left: 0;
+
+            li {
+                padding: 0.75rem 0;
+
+                .icons {
+                    color: $icons_vertical;
+
+                }
+
+            }
+        }
     }
 
 }
